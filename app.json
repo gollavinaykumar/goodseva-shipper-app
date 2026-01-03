@@ -12,6 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "extra": {
+      "router": {
+        "origin": "https://shipperapp"
+      },
+      "eas": {
+        "projectId": "01f80094-ff95-43f7-a71d-6aa1e99b27c0"
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +29,14 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gollavinay.shipperapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
